@@ -1,0 +1,33 @@
+{
+  "name": "sapphire-pets",
+  "version": "1.0.0",
+  "description": "Search for pets using the Pet Finder API",
+  "main": "App.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runningCoder81/sapphire-pets.git"
+  },
+  "keywords": [],
+  "author": "Bobby Lee <rdlee8181@gmail.com> (https://sapphiredev.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/runningCoder81/sapphire-pets/issues"
+  },
+  "homepage": "https://github.com/runningCoder81/sapphire-pets#readme",
+  "devDependencies": {
+    "eslint": "6.5.1",
+    "eslint-config-prettier": "6.4.0",
+    "parcel-bundler": "1.12.4",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "react": "16.10.2",
+    "react-dom": "16.10.2"
+  }
+}
